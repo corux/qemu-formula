@@ -1,0 +1,7 @@
+default:
+  qemu:
+    tuned_profile: virtual-guest
+
+physical:
+  qemu:
+    tuned_profile: virtual-host

@@ -1,0 +1,3 @@
+{% import_yaml 'qemu/virtual_map.yaml' as virtual_map %}
+{% set default_settings = salt['grains.filter_by'](virtual_map, grain='virtual') %}
+{% set qemu = salt['pillar.get']('qemu', default=default_settings.get('qemu'), merge=True) %}

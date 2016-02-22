@@ -1,0 +1,7 @@
+name: qemu
+os: CentOS, Fedora
+os_family: RedHat
+version: 201602
+release: 1
+summary: Formula for installing QEMU
+description: Formula for installing QEMU
